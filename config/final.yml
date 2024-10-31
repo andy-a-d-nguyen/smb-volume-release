@@ -3,6 +3,4 @@ final_name: smb-volume
 blobstore:
   provider: s3
   options:
-    region: us-west-1
-    endpoint: https://s3-us-west-1.amazonaws.com
     bucket_name: smb-blobs
