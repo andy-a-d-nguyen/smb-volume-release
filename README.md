@@ -25,6 +25,17 @@ under `Volume Services` area.
 -   [Deploying to
     CloudFoundry](./docs/02-deploying-smb-volume-service.md)
 
+# Contributing
+
+See the [Contributing.md](./.github/CONTRIBUTING.md) for more
+information on how to contribute.
+
+# Working Group Charter
+
+This repository is maintained by [App Runtime
+Platform](https://github.com/cloudfoundry/community/blob/main/toc/working-groups/app-runtime-platform.md)
+under `Volume Services` area.
+
 > \[!IMPORTANT\]
 >
 > Content in this file is managed by the [CI task
