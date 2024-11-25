@@ -5,28 +5,28 @@ go 1.23
 toolchain go1.23.2
 
 require (
-	code.cloudfoundry.org/debugserver v0.24.0
-	code.cloudfoundry.org/dockerdriver v0.24.0
-	code.cloudfoundry.org/goshims v0.49.0
+	code.cloudfoundry.org/debugserver v0.25.0
+	code.cloudfoundry.org/dockerdriver v0.25.0
+	code.cloudfoundry.org/goshims v0.50.0
 	code.cloudfoundry.org/lager/v3 v3.15.0
-	code.cloudfoundry.org/tlsconfig v0.9.0
-	code.cloudfoundry.org/volume-mount-options v0.104.0
-	code.cloudfoundry.org/volumedriver v0.105.0
+	code.cloudfoundry.org/tlsconfig v0.10.0
+	code.cloudfoundry.org/volume-mount-options v0.105.0
+	code.cloudfoundry.org/volumedriver v0.106.0
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.9.0
-	github.com/onsi/ginkgo/v2 v2.21.0
+	github.com/onsi/ginkgo/v2 v2.22.0
 	github.com/onsi/gomega v1.35.1
 	github.com/tedsuo/ifrit v0.0.0-20230516164442-7862c310ad26
 	github.com/tedsuo/rata v1.0.0
 )
 
 require (
-	code.cloudfoundry.org/cfhttp/v2 v2.21.0 // indirect
+	code.cloudfoundry.org/cfhttp/v2 v2.22.0 // indirect
 	code.cloudfoundry.org/clock v1.21.0 // indirect
 	github.com/bmizerany/pat v0.0.0-20210406213842-e4b6760bdd6f // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
-	github.com/google/pprof v0.0.0-20241101162523-b92577c0c142 // indirect
+	github.com/google/pprof v0.0.0-20241122213907-cbe949e5a41b // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	golang.org/x/mod v0.22.0 // indirect
 	golang.org/x/net v0.31.0 // indirect
