@@ -7,17 +7,6 @@ shares and bind the shares to your applications for share file access.
 For information on getting started with Cloud Foundry look at the docs
 for [CF Deployment](https://github.com/cloudfoundry/cf-deployment).
 
-# Contributing
-
-See the [Contributing.md](./.github/CONTRIBUTING.md) for more
-information on how to contribute.
-
-# Working Group Charter
-
-This repository is maintained by [App Runtime
-Platform](https://github.com/cloudfoundry/community/blob/main/toc/working-groups/app-runtime-platform.md)
-under `Volume Services` area.
-
 # Docs
 
 -   [Overview and Configuring](./docs/01-configuring.md)
