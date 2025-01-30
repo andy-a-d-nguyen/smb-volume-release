@@ -1,5 +1,15 @@
 package main
 
+import (
+	"strings"
+
+	"code.cloudfoundry.org/smbdriver"
+)
+
 func AllowedOptions() string {
-	return "source,mount,ro,username,password,domain,version,mfsymlinks,noserverino,forceuid,noforceuid,forcegid,noforcegid,nodfs"
+	// these options aren't valid mount options but special options for the broker
+	brokerOpts := []string{"mount", "source"}
+	brokerOpts = append(brokerOpts, smbdriver.AllowedMountOptions...)
+
+	return strings.Join(brokerOpts, ",")
 }
